@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Viagem</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Viagem</h1>
+        <label for="trip-name">Nome da viagem:</label>
+        <input type="text" id="trip-name">
+        <label for="distance">Distância em km percorridos:</label>
+        <input type="number" id="distance">
+        <label for="fuel-used">Litros de combustível gastos:</label>
+        <input type="number" id="fuel-used">
+        <label for="fuel-price">Valor do litro de combustível:</label>
+        <input type="number" id="fuel-price">
+        <br>
+        <button onclick="calculateTrip()">Calcular</button>
+        <div id="results"></div>
+    </div>
+</body>
+</html>
